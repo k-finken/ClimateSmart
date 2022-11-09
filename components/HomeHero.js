@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import browser from '../public/browser.svg'
+import browser from '../public/Browser.svg'
 
 export default function HomeHero() {
     return (
