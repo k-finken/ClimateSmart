@@ -10,7 +10,7 @@ module.exports = {
       themeDark: '#1FAB89',
       themeMedium: '#62D2A2',
       themeLight: '#9DF3C4',
-      themeLightest: 'D7FBE8'
+      themeLightest: '#D7FBE8'
     },}
   },
   plugins: [],
