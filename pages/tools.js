@@ -10,7 +10,9 @@ export default function Home() {
     <>
       <NavBar/>
       <hr className="border-themeDark"></hr>
+      <div className="flex content-center justify-center">
       <ToolsCarbon/>
+      </div>
       <Footer/>
     </>
   )
