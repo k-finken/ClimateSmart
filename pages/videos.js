@@ -7,7 +7,6 @@ export default function Videos() {
   return (
     <>
       <NavBar/>
-      {/* <Flowplayer token="<my-token>" src="//edge.flowplayer.org/bauhaus.mp4" /> */}
     </>
   )
 }
