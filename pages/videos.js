@@ -1,12 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
-import HomeHero from "../components/HomeHero";
 import NavBar from "../components/NavBar";
 
 export default function Videos() {
   return (
     <>
-      <NavBar />
+      <NavBar/>
+      
+      <div align="center"className="text-themeDark">
+      <font size="+3"><u>Videos</u></font>
+      </div>
+      <br></br>
       <div className="flex justify-center content-center">
         <iframe
           width="560"
@@ -19,13 +23,13 @@ export default function Videos() {
         />
       </div>
       <br></br>
-      <div align="center">
+      <div align="center"className="text-themeDark">
         <u>Description</u>
       </div>
-      <div align="center">
+      <div align="center"className="text-themeDark">
         Climate Change facts and science explained in under 2 minutes.
       </div>
-      <div align="center">Video created by Our Changing Climate</div>
+      <div align="center"className="text-themeDark">Video created by Our Changing Climate</div>
       <br></br>
       <div className="flex justify-center content-center">
         <iframe
@@ -39,16 +43,16 @@ export default function Videos() {
         />
       </div>
       <br></br>
-      <div align="center">
+      <div align="center"className="text-themeDark">
         <u>Description</u>
       </div>
-      <div align="center">
+      <div align="center"className="text-themeDark">
         Climate change is a real and serious issue. In this animated
         infographic, we dive into the science behind human-accelerated climate
         change, how it is affecting our planet, why we need to act on this
         issue, and how you as an individual can contribute to the solution.
       </div>
-      <div align="center">Video created by Matt Miltonberger</div>
+      <div align="center"className="text-themeDark">Video created by Matt Miltonberger</div>
       <br></br>
       <div className="flex justify-center content-center">
         <iframe
@@ -62,10 +66,10 @@ export default function Videos() {
         ></iframe>
       </div>
       <br></br>
-      <div align="center">
+      <div align="center"className="text-themeDark">
         <u>Description</u>
       </div>
-      <div align="center">
+      <div align="center"className="text-themeDark">
         This video defines climate change and explains the greenhouse effect and
         the role of greenhouse gases in our atmosphere. While it explores the
         consequences of climate change on our environment - such as rising sea
@@ -73,8 +77,8 @@ export default function Videos() {
         also suggests both big and little changes that we can make to protect
         our Earth.
       </div>
-      <div align="center">Video created by ClickView</div>
-      <div align="center">
+      <div align="center"className="text-themeDark">Video created by ClickView</div>
+      <div align="center"className="text-themeDark">
         David Attenborough picture - Weston Library Opening by John Cairns.
       </div>
       <br></br>
