@@ -32,18 +32,6 @@
     "minimatch" "^3.1.2"
     "strip-json-comments" "^3.1.1"
 
-"@flowplayer/player@^3.2.4", "@flowplayer/player@^3.4.3":
-  "integrity" "sha512-k5gZKLE50CoUDqvzX5HD2tvSe7c+PQk1DpKE7KutaPXV5t7jvlQs42TsDhp/Ypyc5vd575NNDRnORr/wbhW34A=="
-  "resolved" "https://registry.npmjs.org/@flowplayer/player/-/player-3.4.3.tgz"
-  "version" "3.4.3"
-  dependencies:
-    "hls.js" "1.2.3"
-
-"@flowplayer/react-flowplayer@^1.2.0":
-  "integrity" "sha512-VuzBQ9tq+/YwBgaSFeupnJNYkIb2bCLXWZYnuGxfiwpqTCLweQLHvYY7E18kHAUb0vGodOd8IxQMp5++S50eew=="
-  "resolved" "https://registry.npmjs.org/@flowplayer/react-flowplayer/-/react-flowplayer-1.2.0.tgz"
-  "version" "1.2.0"
-
 "@humanwhocodes/config-array@^0.10.4":
   "integrity" "sha512-mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw=="
   "resolved" "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.10.4.tgz"
@@ -1000,11 +988,6 @@
   dependencies:
     "function-bind" "^1.1.1"
 
-"hls.js@1.2.3":
-  "integrity" "sha512-CC/vHi82ldiiydIhliNI3whlcepRXxI2jdpd/KKb6lyEv+74e7lXs4cGk5PHfTLxZMKOj6+m5LX9VAbvV/r7AQ=="
-  "resolved" "https://registry.npmjs.org/hls.js/-/hls.js-1.2.3.tgz"
-  "version" "1.2.3"
-
 "ignore@^5.2.0":
   "integrity" "sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ=="
   "resolved" "https://registry.npmjs.org/ignore/-/ignore-5.2.0.tgz"
@@ -1584,7 +1567,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>= 17.0.2":
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
