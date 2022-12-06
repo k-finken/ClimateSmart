@@ -71,7 +71,7 @@ export default function NavBar() {
                                 <Link href="/tools">Tools</Link>
                             </li>
                             <li className="text-themeDark hover:text-themeLight">
-                                <Link href="/faq">Faq</Link>
+                                <Link href="/faq">FAQ</Link>
                             </li>
                             {/* //if not logged in show login */}
                             {!user && <li className="text-themeDark hover:text-themeLight">
