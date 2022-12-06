@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import spaceshipGif from "../images/spaceship.gif"
+import ReactPlayer from "react-player";
 
 function HomeMission() {
   return (
@@ -18,27 +21,18 @@ function HomeMission() {
             className="text-lg leading-relaxed text-white"
             style={{ width: 470 }}
           >
-            Mission Statement here
+            ClimateSmart is striving to educate the world about the climate information and build interactive tools to facilitate learning.
           </p>
           <p
             className="text-sm leading-tight text-white"
             style={{ width: 470 }}
           >
-            Possible Quote
+            "There are no passengers on Spaceship Earth. We are all crew."
           </p>
-          <div className="w-6 h-6 bg-white rounded-full" />
-          <p className="text-sm leading-tight text-white">Quote Author</p>
+          <div className="w-6 h-6 bg-[#f5f7f8] rounded-full" />
+          <p className="text-sm leading-tight text-white">Marshall McLuhan</p>
         </div>
-        <div className="relative" style={{ width: 491, height: 286 }}>
-          <div
-            className="absolute right-0 top-0 bg-themeMedium"
-            style={{ width: 400, height: 232.68 }}
-          />
-          <div
-            className="absolute left-0 bottom-0 bg-themeLightest"
-            style={{ width: 400, height: 232.68 }}
-          />
-        </div>
+          <ReactPlayer url="https://www.youtube.com/watch?v=yiw6_JakZFc" />
       </div>
     </div>
   );

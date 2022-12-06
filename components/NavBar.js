@@ -1,11 +1,18 @@
 import { useState } from "react";
 import Link from 'next/link';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { getAuth } from "firebase/auth";
+import { initFirebase } from "../firebase/firebaseApp";
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
+    initFirebase()
+    const auth = getAuth();
+    const [user, loading] = useAuthState(auth);
+
     return (
-        <nav className="w-full bg-white">
+        <nav className="w-full bg-[#f5f7f8]">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -64,11 +71,16 @@ export default function NavBar() {
                                 <Link href="/tools">Tools</Link>
                             </li>
                             <li className="text-themeDark hover:text-themeLight">
-                                <Link href="/faq">FAQ</Link>
+                                <Link href="/faq">Faq</Link>
                             </li>
-                            <li className="text-themeDark hover:text-themeLight">
-                                <Link href="/faq">Login</Link>
-                            </li>
+                            {/* //if not logged in show login */}
+                            {!user && <li className="text-themeDark hover:text-themeLight">
+                                <Link href="/login">Login</Link>
+                            </li>}
+                            {/* //if logged in show profile */}
+                            {user && <li className="text-themeDark hover:text-themeLight">
+                                <Link href="/profile">{user.displayName}</Link>
+                            </li>}
                         </ul>
                     </div>
                 </div>

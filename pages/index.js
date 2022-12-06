@@ -9,13 +9,12 @@ import NavBar from '../components/NavBar'
 
 export default function Home() {
   return (
-    <>
+    <div className='bg-[#f5f7f8]'>
       <NavBar/>
-      <hr className="border-themeDark"></hr>
       <HomeHero/>
       <HomeOptions/>
       <HomeMission/>
       <Footer/>
-    </>
+    </div>
   )
 }
