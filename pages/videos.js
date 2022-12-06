@@ -54,8 +54,8 @@ export default function Videos() {
         <div className="m-auto">
           <ReactPlayer url="https://www.youtube.com/watch?v=ipVxxxqwBQw" />
           <h1 className="mt-12 text-themeDark underline text-xl">Description:</h1>
-          <p className="mt-2 text-themeDark text-md">Since the Industrial Revolution, humans have released over 1.5 trillion tonnes of carbon dioxide or CO2 into the earth's atmosphere.  In the year 2019  we were still pumping out  around 37 billion more.  That’s 50% more than the year 2000 and almost three times as much as 50 years ago. And it’s not just CO2. We’re also pumping out growing volumes  of  other greenhouse gases such as methane and nitrous oxide. Combining all of our greenhouse gases, we’re emitting 51 billion tonnes of carbon dioxide equivalents each year. 
-And emissions keep rising – but they need to get down to 0!</p>
+          <p className="mt-2 text-themeDark text-md">Since the Industrial Revolution, humans have released over 1.5 trillion tonnes of carbon dioxide or CO2 into the earths atmosphere.  In the year 2019  we were still pumping out  around 37 billion more.  Thats 50% more than the year 2000 and almost three times as much as 50 years ago. And its not just CO2. Were also pumping out growing volumes  of  other greenhouse gases such as methane and nitrous oxide. Combining all of our greenhouse gases, were emitting 51 billion tonnes of carbon dioxide equivalents each year. 
+And emissions keep rising but they need to get down to 0!</p>
         </div>
         <div className="m-auto">
           <ReactPlayer url="https://www.youtube.com/watch?v=dIsjcG7hTmo" />
