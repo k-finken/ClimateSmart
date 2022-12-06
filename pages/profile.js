@@ -26,7 +26,7 @@ export default function Profile() {
                         <h1 className="text-3xl font-bold text-themeDark">Profile page</h1>
                     </div>
                     <div className='w-full flex justify-center items-center bg-[#f5f7f8]'>
-                        <p className="text-center mt-10 text-xl font-bold max-w-xl text-themeDark">Welcome {user.displayName} to your ClimateSmart Profile! Use the navbar to explore all that ClimateSmart has to offer!</p>
+                        <p className="text-center mt-10 text-xl font-bold max-w-xl text-themeDark">Welcome to your ClimateSmart Profile! Use the navbar to explore all that ClimateSmart has to offer!</p>
                     </div>
                     <div className='mt-10 w-full flex justify-center items-center'>
                         <button onClick={signOut} className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-themeDark border hover:text-themeDark transition border-themeDark rounded-lg hover:bg-themeLightest focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">Sign Out</button>
