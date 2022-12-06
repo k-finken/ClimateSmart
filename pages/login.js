@@ -68,7 +68,7 @@ export default function Login() {
                         </div>
                     </div>
                     <div className="mt-8 items-center">
-                        <button role="button" aria-label="create my account" className="flex m-auto px-5 py-3 text-base font-medium text-center text-themeDark border hover:text-gray-700 transition border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                        <button role="button" aria-label="create my account" className="flex m-auto px-5 py-3 text-base font-medium text-center text-themeDark border hover:themeLight transition border-gray-300 rounded-lg hover:bg-themeLight focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                             Sign In
                         </button>
                     </div>
