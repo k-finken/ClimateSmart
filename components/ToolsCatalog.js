@@ -5,9 +5,10 @@ import ReactDOM from "react-dom/client";
 export default function ToolsCatalog() {
     
     var currentDateObj = new Date();
+    var init = currentDateObj.toDateString();
     
     const [value, setValue] = useState("______");
-    const [decompDate, setDecompDate] = useState("");
+    const [decompDate, setDecompDate] = useState(init);
     
     const waste = {
         plastic: 365000,
@@ -16,7 +17,10 @@ export default function ToolsCatalog() {
         organic: 32
     }
     
-    const handleItemClick = value => {
+    
+    const handleItemClick = (e) => {
+        
+        var currentDateObj = new Date();
         var numberOfMlSeconds = currentDateObj.getTime();
         let de = 0;
         if (value == "plastic") {
@@ -34,7 +38,6 @@ export default function ToolsCatalog() {
         var addMlSeconds = de * 24 * 60 * 60 * 1000;
         var newDateObj = new Date(numberOfMlSeconds + addMlSeconds);
         var decompDate = newDateObj.toDateString();
-        setValue(value);
         setDecompDate(decompDate);
         console.log(`Waste item selected:`, value);
     };
@@ -45,15 +48,18 @@ export default function ToolsCatalog() {
       <p className="text-3xl text-themeDark" style={{ width: 422 }}>Waste Decomposition Catalog</p>
       <div>
     
-        <select onChange={handleItemClick}>
-          <option value="plastic">Plastic</option>
-          <option value="paper">Paper</option>
-            <option value="metal">Metal</option>
-            <option value="organic">Organic</option>
+        <select onChange={(e) => setValue(e.target.value)}>
+          <option value="plastic" onClick={handleItemClick}>Plastic</option>
+          <option value="paper" onClick={handleItemClick}>Paper</option>
+            <option value="metal" onClick={handleItemClick}>Metal</option>
+            <option value="organic" onClick={handleItemClick}>Organic</option>
         </select>
       </div>
       <div>
-        <p>If you threw away {value} today, it would likely decompose by {decompDate}.</p>
+        <p>If you threw away {value} waste today, it would likely decompose by</p>
+      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md">
+        <p className="text-3xl text-themeDark center"> {decompDate}</p>
+      </div>
       </div>
       
 </div>
