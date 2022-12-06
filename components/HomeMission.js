@@ -24,13 +24,13 @@ function HomeMission() {
             ClimateSmart is striving to educate the world about the climate information and build interactive tools to facilitate learning.
           </p>
           <p
-            className="text-sm leading-tight text-white"
+            className="mt-4 text-sm leading-tight text-white"
             style={{ width: 470 }}
           >
-            "There are no passengers on Spaceship Earth. We are all crew."
+            There are no passengers on Spaceship Earth. We are all crew.  
           </p>
           <div className="w-6 h-6 bg-[#f5f7f8] rounded-full" />
-          <p className="text-sm leading-tight text-white">Marshall McLuhan</p>
+          <p className="text-sm leading-tight text-white">-Marshall McLuhan</p>
         </div>
           <ReactPlayer url="https://www.youtube.com/watch?v=yiw6_JakZFc" />
       </div>
