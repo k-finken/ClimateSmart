@@ -13,5 +13,8 @@ module.exports = {
       themeLightest: '#D7FBE8'
     },}
   },
-  plugins: [],
+  plugins: [
+    // Or with a custom prefix:
+    require('@headlessui/tailwindcss')({ prefix: 'ui' })
+  ],
 }
