@@ -5,7 +5,6 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import { initFirebase } from '../firebase/firebaseApp';
-import Confetti from 'react-confetti'
 
 
 export default function Profile() {
@@ -34,7 +33,6 @@ export default function Profile() {
                         <button onClick={signOut} className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-themeDark border hover:text-themeDark transition border-themeDark rounded-lg hover:bg-themeLightest focus:ring-4 focus:ring-gray-100">Sign Out</button>
                     </div>
                     <div className="h-96"></div>
-                    <Confetti/>
                     <div className="h-56"></div>
                 </div>
             <Footer/>
