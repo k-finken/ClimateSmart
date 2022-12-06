@@ -20,17 +20,17 @@ function HomeOptions() {
             className="inline-flex space-x-10 items-center justify-end"
             style={{ width: 680, height: 80 }}
           >
-            <Link href="https://www.epa.gov/climate-change">
-                <button className="w-3/4 h-full bg-themeDark text-themeLightest rounded-full text-lg hover:scale-110 transition">Climate Change</button>
+            <Link href="https:/www.epa.gov/climate-change">
+                <button className="p-3 w-3/4 h-full bg-themeDark text-themeLightest rounded-full text-lg hover:scale-110 transition">Climate Change</button>
             </Link>
-            <Link href="https://www.epa.gov/environmental-topics/air-topics">
-                <button className="w-3/4 h-full bg-themeDark text-themeLightest rounded-full text-lg hover:scale-110 transition">Air Pollution</button>
+            <Link href="https:/www.epa.gov/environmental-topics/air-topics">
+                <button className="p-3 w-3/4 h-full bg-themeDark text-themeLightest rounded-full text-lg hover:scale-110 transition">Air Pollution</button>
             </Link>
-            <Link href="https://www.epa.gov/https://www.epa.gov/environmental-topics/land-waste-and-cleanup-topics">
-                <button className="w-3/4 h-full bg-themeDark text-themeLightest rounded-full text-lg hover:scale-110 transition">Waste Management</button>
+            <Link href="https:/www.epa.gov/environmental-topics/land-waste-and-cleanup-topics">
+                <button className="p-3 w-3/4 h-full bg-themeDark text-themeLightest rounded-full text-lg hover:scale-110 transition">Waste Management</button>
             </Link>
-            <Link href="https://www.epa.gov/environmental-topics/water-topics">
-                <button className="w-3/4 h-full bg-themeDark text-themeLightest rounded-full text-lg hover:scale-110 transition">Water Quality</button>
+            <Link href="https:/www.epa.gov/environmental-topics/water-topics">
+                <button className="p-3 w-3/4 h-full bg-themeDark text-themeLightest rounded-full text-lg hover:scale-110 transition">Water Quality</button>
             </Link>
           </div>
         </div>
