@@ -4,8 +4,8 @@ import ReactDOM from "react-dom/client";
 
 export default function ToolsCatalog() {
     
-    var currentDateObj = new Date();
-    var init = currentDateObj.toDateString();
+    let currentDateObj = new Date();
+    let init = currentDateObj.toDateString();
     
     const [value, setValue] = useState("______");
     const [decompDate, setDecompDate] = useState(init);
@@ -19,7 +19,7 @@ export default function ToolsCatalog() {
     
     
     const handleItemClick = (e) => {
-        
+        setValue(e.target.value);
         var currentDateObj = new Date();
         var numberOfMlSeconds = currentDateObj.getTime();
         let de = 0;
@@ -48,11 +48,11 @@ export default function ToolsCatalog() {
       <p className="text-3xl text-themeDark" style={{ width: 422 }}>Waste Decomposition Catalog</p>
       <div>
     
-        <select onChange={(e) => setValue(e.target.value)}>
-          <option value="plastic" onClick={handleItemClick}>Plastic</option>
-          <option value="paper" onClick={handleItemClick}>Paper</option>
-            <option value="metal" onClick={handleItemClick}>Metal</option>
-            <option value="organic" onClick={handleItemClick}>Organic</option>
+        <select onChange={(e) => handleItemClick(e)}>
+          <option value="plastic">Plastic</option>
+          <option value="paper">Paper</option>
+          <option value="metal">Metal</option>
+          <option value="organic">Organic</option>
         </select>
       </div>
       <div>
